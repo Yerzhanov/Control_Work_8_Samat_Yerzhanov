@@ -1,0 +1,22 @@
+[
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$4l4fhutFex93e74jnYBj4K$01Cpta+iLiSn/+CdYeB6OVtljX9H6WUOtUwROub4E2o=",
+    "last_login": "2023-03-25T12:49:59.603Z",
+    "is_superuser": true,
+    "username": "root",
+    "first_name": "Джон",
+    "last_name": "Уик",
+    "email": "dearhauer@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-03-25T06:45:05.766Z",
+    "image": "imgonline-com-ua-Resize-O7mtXT6pUQ.jpg",
+    "is_verified_email": false,
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]

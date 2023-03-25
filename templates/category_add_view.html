@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block css %}
+    <link href="{% static 'vendor/css/index.css' %}" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+       <form action="{% url 'category_add' %}" method="post">>
+                {% csrf_token %}
+                {{ form.as_p }}
+                <button type="submit" class="btn btn-primary">Сохранить</button>
+            </form>
+{% endblock %}
